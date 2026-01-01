@@ -1,0 +1,215 @@
+.mainContent {
+    width: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  padding-left: 15px;
+  width: 90%;
+  justify-content: space-between;
+  max-height: fit-content;
+}
+
+.date {
+  font-size: 100%;
+  color: #e93a78;
+}
+
+.day {
+  font-size: 180%;
+}
+
+.sleep {
+  padding-right: 50px;
+  font-size: 120%;
+}
+
+.sleep label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sleep input {
+  padding: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #e93a78;
+  width: 35px;
+  border: 2px solid #fc809f;
+  border-radius: 5px;
+}
+
+.sleep input::placeholder {
+  color: #f784a2;
+}
+
+.exercise {
+  padding-top: 20px;
+}
+
+.exercise h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #e93a78;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 140%;
+}
+
+.showExe {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.oneExe {
+  display: flex;
+  gap: 15px;
+}
+
+.oneExe select {
+  padding: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e93a78;
+  width: 110px;
+  height: 30px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+}
+
+.exeRightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.exeRightColumn input {
+  padding: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e93a78;
+  width: 200px;
+  height: 20px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+}
+
+.exeRightColumn input::placeholder {
+  font-weight: 100;
+  color: #f784a2;
+}
+
+.rightColumnUnder {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.rightColumnUnder input {
+  padding: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e93a78;
+  width: 52px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+}
+
+.difficultyDropdown {
+  position: relative;
+  width: 60px;
+}
+
+.dropdownSelected {
+  padding: 4px;
+  font-family:sans-serif;
+  font-size: 12px;
+  color: #f784a2;
+  background-color: white;
+  width: 52px;
+  height: 20px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdownOptions {
+  position: absolute;
+  top: 110%;
+  left: -5px;
+  right: -5px;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.dropdownOption {
+  padding: 6px;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 12px;
+}
+
+.green {
+  background-color: #7EE8A3;
+  color:#D91E6A
+}
+
+.yellow {
+  background-color: #FFF275;
+  color:#FF3F85
+}
+
+.red {
+  background-color: #FF9AA2;
+  color:#FF1E79
+}
+
+.feelingDropdown {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+}
+
+
+.feelingButton {
+  padding: 4px;
+  font-family:sans-serif;
+  font-size: 12px;
+  color: #f784a2;
+  background-color: white;
+  width: 52px;
+  height: 20px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.feelingOptions {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-40%);
+  display: flex;
+  gap: 5px;
+  margin-top: 8px;
+  z-index: 10;
+}
+
+.feelingOption {
+  font-size: 24px;
+}
+
+.selectedFeeling {
+  font-size: 20px;
+  justify-content: center;
+}
+
+.addExercise {
+  max-width: fit-content;
+  margin-top: 8px;
+  margin-left: 0px;
+}

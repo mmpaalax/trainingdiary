@@ -1,0 +1,27 @@
+.exe2Header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.exercise2 h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #e93a78;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 140%;
+}
+
+.exeInfo {
+  width: 180px;
+  border-radius: 10px;
+  background-color: #ffc9d7;
+  color: #e93a78;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 62%;
+  text-align: center;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
