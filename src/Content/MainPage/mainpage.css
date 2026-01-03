@@ -1,29 +1,30 @@
 .mainContent {
-    width: 100%;
+  width: 100%;
 }
 
 .content-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 24px;
-  width: 90%;
+  padding: 16px 20px;
+  margin-top: 8px;
+  border-bottom: 1px solid #f4b4c7;
 }
 
 .dateBlock {
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
 }
 
 .date {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #fc809f;
   text-transform: lowercase;
+  margin-top: 2px;
 }
 
 .day {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #e93a78;
 }
@@ -31,47 +32,47 @@
 .sleep {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background-color: #ffe6ee;
 }
 
 .sleep label {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #e93a78;
 }
 
 .sleep input {
-  width: 40px;
-  padding: 6px 8px;
-  font-size: 0.85rem;
+  width: 28px;
+  border: none;
+  background: transparent;
+  text-align: center;
   font-weight: 600;
-  text-align: left;
   color: #e93a78;
-  border: 1px solid #fc809f;
-  border-radius: 5px;
 }
 
 .sleep input::placeholder {
   color: #f784a2;
 }
 
-.exercise {
-  padding-top: 20px;
-}
-
 .exercise h2 {
- margin-top: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
   margin-bottom: 20px;
   font-size: 1.3rem;
   font-weight: 600;
   color: #e93a78;
   letter-spacing: 0.3px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .exercise h2::after {
   content: "";
-  display: block;
-  width: 200px;
+  width: min(60%, 180px);
   height: 3px;
   margin-top: 6px;
   border-radius: 3px;
@@ -89,7 +90,7 @@
   flex-wrap: wrap;
   gap: 15px;
   width: fit-content;
-  
+
   padding: 14px 12px;
   border-radius: 10px;
   background-color: #ffdee9;
@@ -152,7 +153,7 @@
 
 .dropdownSelected {
   padding: 4px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-size: 12px;
   color: #f784a2;
   background-color: white;
@@ -182,18 +183,18 @@
 }
 
 .green {
-  background-color: #7EE8A3;
-  color:#D91E6A
+  background-color: #7ee8a3;
+  color: #d91e6a;
 }
 
 .yellow {
-  background-color: #FFF275;
-  color:#FF3F85
+  background-color: #fff275;
+  color: #ff3f85;
 }
 
 .red {
-  background-color: #FF9AA2;
-  color:#FF1E79
+  background-color: #ff9aa2;
+  color: #ff1e79;
 }
 
 .feelingDropdown {
@@ -203,10 +204,9 @@
   text-align: center;
 }
 
-
 .feelingButton {
   padding: 4px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-size: 12px;
   color: #f784a2;
   background-color: white;

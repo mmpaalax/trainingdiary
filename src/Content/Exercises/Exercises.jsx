@@ -56,11 +56,14 @@ const Exercises = ({ exercises, setExercises }) => {
             </p>
           </div>
         ) : null}
+        
       </div>
-      <div className="showExe">
-        <div className="addExercise">
+      <div className="exeHeaderLine"></div>
+      <div className="addExercise">
           <CiCirclePlus size={28} color="#e93a78" onClick={addExercise} />
         </div>
+      <div className="showExe">
+        
         {exercises.map((exercise, index) => (
           <div className="oneExe" key={index}>
             <select

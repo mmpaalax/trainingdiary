@@ -2,12 +2,13 @@
 header {
   display: flex;
   height: 80px;
-  background-color: #ffe9ef;
+  background-color: #ffdee9;
   align-items: center;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 25px;
-  /* border-bottom: 3px solid #FFDFE7 */
+  border-radius: 0 0 40px 40px;
+ box-shadow: 0 2px 8px rgba(233, 58, 120, 0.12);
 }
 
 .headerText {

@@ -4,8 +4,7 @@ import { BsEmojiSmile } from "react-icons/bs";
 import { BsEmojiNeutral } from "react-icons/bs";
 import { BsEmojiAngry } from "react-icons/bs";
 
-const MainPage = ({exercises, setExercises}) => {
-
+const MainPage = ({ exercises, setExercises }) => {
   const now = new Date();
   const date = now.toLocaleDateString("fi-FI", {
     timeZone: "Europe/Helsinki",
@@ -48,9 +47,9 @@ const MainPage = ({exercises, setExercises}) => {
     <div className="mainContent">
       <div className="content-wrapper">
         <div className="dateBlock">
+          <span className="day">{capWeekday}</span>
           <span className="date">{date}</span>
           
-          <span className="day">{capWeekday}</span>
         </div>
         <div className="sleep">
           <label>Uni:</label>
@@ -70,7 +69,7 @@ const MainPage = ({exercises, setExercises}) => {
           {exercises.map((exercise, index) => (
             <div className="oneExe" key={index}>
               <select
-              value={exercise.sport}
+                value={exercise.sport}
                 onChange={(e) =>
                   setExercises(
                     exercises.map((ex) =>
@@ -97,7 +96,7 @@ const MainPage = ({exercises, setExercises}) => {
 
               <div className="exeRightColumn">
                 <input
-                value={exercise.theme}
+                  value={exercise.theme}
                   type="text"
                   placeholder="Teema"
                   onChange={(e) =>
@@ -110,7 +109,7 @@ const MainPage = ({exercises, setExercises}) => {
                 />
                 <div className="rightColumnUnder">
                   <input
-                  value={exercise.time}
+                    value={exercise.time}
                     type="number"
                     placeholder="Kesto"
                     onChange={(e) =>
