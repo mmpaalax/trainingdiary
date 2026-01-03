@@ -47,9 +47,9 @@ const MainPage = ({exercises, setExercises}) => {
   return (
     <div className="mainContent">
       <div className="content-wrapper">
-        <div>
+        <div className="dateBlock">
           <span className="date">{date}</span>
-          <br />
+          
           <span className="day">{capWeekday}</span>
         </div>
         <div className="sleep">
@@ -65,7 +65,7 @@ const MainPage = ({exercises, setExercises}) => {
       </div>
 
       <div className="exercise">
-        <h2>Harjoitukset</h2>
+        <h2>Harjoitukset:</h2>
         <div className="showExe">
           {exercises.map((exercise, index) => (
             <div className="oneExe" key={index}>
@@ -220,7 +220,7 @@ const MainPage = ({exercises, setExercises}) => {
           ))}
         </div>
         <div className="addExercise">
-          <CiCirclePlus size={28} color="#e93a78" onClick={addExercise} />
+          <CiCirclePlus size={32} color="#e93a78" onClick={addExercise} />
         </div>
       </div>
     </div>
