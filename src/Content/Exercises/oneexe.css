@@ -1,0 +1,160 @@
+.oneExe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: fit-content;
+  padding: 14px 12px;
+  border-radius: 10px;
+  background-color: #ffdee9;
+  box-shadow: 0 2px 6px rgba(233, 58, 120, 0.08);
+}
+
+.oneExe select {
+  padding: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e93a78;
+  width: 30%;
+  height: 30px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+}
+
+.exeRightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+}
+
+.exeRightColumn input,
+.otherInfo {
+  padding: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e93a78;
+  flex: 1;
+  min-height: 20px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+}
+
+.exeRightColumn input::placeholder,
+.otherInfo::placeholder {
+  font-weight: 100;
+  color: #f784a2;
+}
+
+.otherInfo {
+  flex: 1;
+  min-width: 50%;
+}
+
+.rightColumnUnder {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.rightColumnUnder input {
+  padding: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e93a78;
+  width: 30%;
+  height: 20px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+}
+
+.difficultyDropdown {
+  position: relative;
+  width: 30%;
+}
+
+.dropdownSelected {
+  padding: 4px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #f784a2;
+  background-color: white;
+  height: 20px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdownOptions {
+  position: absolute;
+  top: 110%;
+  left: -5px;
+  right: -5px;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.dropdownOption {
+  padding: 6px;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 12px;
+}
+
+.green {
+  background-color: #7ee8a3;
+  color: #d91e6a;
+}
+
+.yellow {
+  background-color: #fff275;
+  color: #ff3f85;
+}
+
+.red {
+  background-color: #ff9aa2;
+  color: #ff1e79;
+}
+
+.feelingDropdown {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.feelingButton {
+  padding: 4px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #f784a2;
+  background-color: white;
+  height: 20px;
+  border: 1px solid #fc809f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.feelingOptions {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-40%);
+  display: flex;
+  gap: 5px;
+  margin-top: 8px;
+  z-index: 10;
+}
+
+.feelingOption {
+  font-size: 24px;
+}
+
+.selectedFeeling {
+  font-size: 20px;
+  justify-content: center;
+}
